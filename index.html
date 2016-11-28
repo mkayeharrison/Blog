@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+<title> </title>
+<link rel= "stylesheet" type = "text/css" href="stylesheet.css" media="screen" />
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://www.mathematicshed.com/uploads/1/2/5/7/12572836/875307_orig.gif');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+      font-family: courier;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0px auto;
+    }
+    @media (max-width: 500px){
+      h1 {
+        font-size: 36px;
+        font-family: courier;
+      }
+      li {
+        display: block;
+        padding: 5px;
+      }
+    }
+  
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/assets/jeff.png">
+    <h1>Megan's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Favorite Movies</a></li>
+      <li><a href="#">Least favorite movies</a></li>
+    </ul>
+  </header>
+  <article>
+  <h2>Divergent: Did the movies ruin the books?</h2>
+  <p>After the release of the much anticipated Divergent movie series, hardcore book lovers have mixed feelings about whether the movies affected their opinions of the books.  </p>
+  <button>Like</button>
+  </article>
+  <article>
+  <h2>Fantastic Beasts: Harry Potter 2.0 or a huge mistake</h2>
+  <p>Immediately after the release of the first Fantastic Beasts movie, the creators promised five more follow up movies. However, not every wizard lover thinks that is a good idea. </p>
+  <button>Like</button>
+  </article>
+  <article>
+  <h2>Underated Movies</h2>
+  <p> Tensions have risen in the movie going community, because of a recent debate on whether big budget movies are better than smaller Indie movies. </p>
+  <button>Like</button>
+  </article>
+  <script>
+  $("button").on("click", function() {
+    alert("clicked!")
+  })'
+  alert("Javascript works!")
+  </script>
+  
+</body>
+
+
